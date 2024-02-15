@@ -9,18 +9,16 @@
     display: inline-block;
 }
 
+li{
+    list-style: none;
+    display: inline-block;
+}
+
 a {
     font-size: 16px;
     text-decoration: none;
     margin-left: 20px;
 }
-
-/*
-.flex-content{
-    display: flex;
-    align-items: center;
-}
-*/
 
 body {
     width: 760px;
