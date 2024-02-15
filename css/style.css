@@ -33,6 +33,7 @@ body {
     width: 50%;
     height: 250px;
     z-index: 0;
+    object-fit: contain;
 }
 
 .position-absolute {
