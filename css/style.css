@@ -20,34 +20,24 @@ a {
     margin-left: 20px;
 }
 
-body {
-    width: 100vw;
-    margin: auto;
-}
-
-.position-relative__img {
-    position: relative;
+.firstview__img {
     display: block;
-    /*右揃え*/
     margin: 80px 0px 0px auto;
     width: 50%;
-    height: 250px;
     z-index: 0;
-    object-fit: contain;
 }
 
-.position-absolute {
-    position: absolute;
-    top: 240px;
-    font-size: 30px;
+.position-relative {
+    position: relative;
+    margin-top: -80px;
+    font-size: 35px;
     z-index: -10;
 }
 
 .position-absolute-blue-box {
     position: absolute;
     width: 80%;
-    height: 20%;
-    top: 270px;
+    height: 15%;
     background-color: blue;
     z-index: -20;
 }
